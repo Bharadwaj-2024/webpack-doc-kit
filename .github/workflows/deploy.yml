@@ -32,7 +32,7 @@ jobs:
         run: npm ci
 
       - name: Generate Markdown
-        run: npm run generate-markdown
+        run: npm run generate-md
 
       - name: Debug
         run: tree generated-api && cat generated-api/index.md
