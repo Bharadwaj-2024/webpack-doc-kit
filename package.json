@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "node generate-md.mjs && doc-kit generate -t web -i generated-api/webpack/namespaces/*.md -o out"
+    "prebuild": "node generate-md.mjs && ls generated-api",
+    "build": "doc-kit generate -t web -i generated-api/webpack/namespaces/*.md -o out"
   },
   "devDependencies": {
     "@node-core/doc-kit": "^1.0.1",
