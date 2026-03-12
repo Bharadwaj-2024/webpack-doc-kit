@@ -2,7 +2,7 @@
   "scripts": {
     "generate-docs": "node generate-md.mjs",
     "build-html": "doc-kit generate -t web -i ./pages/v5.x/**/*.md --type-map ./pages/v5.x/type-map.json -o out",
-    "build": "npm generate-docs && npm build-html",
+    "build": "npm run generate-docs && npm run build-html",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --write .",
