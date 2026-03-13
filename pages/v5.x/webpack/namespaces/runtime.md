@@ -477,13 +477,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `needRebuild(fileTimestamps, contextTimestamps)`
 
+> Stability: 0 - Deprecated
 * `fileTimestamps` {Map}
 * `contextTimestamps` {Map}
 * Returns: {boolean}
 
 Use needBuild instead
-
-##### Deprecated
 
 #### `originalSource()`
 
@@ -520,14 +519,13 @@ Use needBuild instead
 
 #### `source(dependencyTemplates, runtimeTemplate[, type])`
 
+> Stability: 0 - Deprecated
 * `dependencyTemplates` {DependencyTemplates}
 * `runtimeTemplate` {RuntimeTemplate}
 * `type` {string}
 * Returns: {Source}
 
 Use codeGeneration() instead
-
-##### Deprecated
 
 #### `updateCacheModule(module)`
 
@@ -546,12 +544,11 @@ and properties.
 
 #### Static method: `getSourceBasicTypes(module)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * Returns: {ReadonlySet}
 
 In webpack 6, call getSourceBasicTypes() directly on the module instance instead of using this static method.
-
-##### Deprecated
 
 ***
 
@@ -1025,13 +1022,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `needRebuild(fileTimestamps, contextTimestamps)`
 
+> Stability: 0 - Deprecated
 * `fileTimestamps` {Map}
 * `contextTimestamps` {Map}
 * Returns: {boolean}
 
 Use needBuild instead
-
-##### Deprecated
 
 #### `originalSource()`
 
@@ -1068,14 +1064,13 @@ Use needBuild instead
 
 #### `source(dependencyTemplates, runtimeTemplate[, type])`
 
+> Stability: 0 - Deprecated
 * `dependencyTemplates` {DependencyTemplates}
 * `runtimeTemplate` {RuntimeTemplate}
 * `type` {string}
 * Returns: {Source}
 
 Use codeGeneration() instead
-
-##### Deprecated
 
 #### `updateCacheModule(module)`
 
@@ -1099,9 +1094,8 @@ and properties.
 
 #### Static method: `getSourceBasicTypes(module)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * Returns: {ReadonlySet}
 
 In webpack 6, call getSourceBasicTypes() directly on the module instance instead of using this static method.
-
-##### Deprecated

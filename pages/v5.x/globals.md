@@ -362,10 +362,9 @@ After this method has succeeded the cache can only be restored when build depend
 
 #### `getChunkMaps(realHash)`
 
+> Stability: 0 - Deprecated
 * `realHash` {boolean}
 * Returns: {ChunkMaps}
-
-##### Deprecated
 
 #### `getChunkModuleMaps(filterFn)`
 
@@ -957,51 +956,45 @@ After this method has succeeded the cache can only be restored when build depend
 
 #### Static method: `clearChunkGraphForChunk(chunk)`
 
+> Stability: 0 - Deprecated
 * `chunk` {Chunk}
 * Returns: {void}
-
-##### Deprecated
 
 #### Static method: `clearChunkGraphForModule(module)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * Returns: {void}
-
-##### Deprecated
 
 #### Static method: `getChunkGraphForChunk(chunk, deprecateMessage, deprecationCode)`
 
+> Stability: 0 - Deprecated
 * `chunk` {Chunk}
 * `deprecateMessage` {string}
 * `deprecationCode` {string}
 * Returns: {ChunkGraph}
-
-##### Deprecated
 
 #### Static method: `getChunkGraphForModule(module, deprecateMessage, deprecationCode)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * `deprecateMessage` {string}
 * `deprecationCode` {string}
 * Returns: {ChunkGraph}
 
-##### Deprecated
-
 #### Static method: `setChunkGraphForChunk(chunk, chunkGraph)`
 
+> Stability: 0 - Deprecated
 * `chunk` {Chunk}
 * `chunkGraph` {ChunkGraph}
 * Returns: {void}
 
-##### Deprecated
-
 #### Static method: `setChunkGraphForModule(module, chunkGraph)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * `chunkGraph` {ChunkGraph}
 * Returns: {void}
-
-##### Deprecated
 
 ***
 
@@ -1542,10 +1535,9 @@ If `module` is passed, `loc` and `request` must also be passed.
 
 #### `assignDepth(module)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * Returns: {void}
-
-##### Deprecated
 
 #### `assignDepths(modules)`
 
@@ -2272,12 +2264,11 @@ implement this method to allow the occurrence order plugin to count correctly
 
 #### `getReference(moduleGraph)`
 
+> Stability: 0 - Deprecated
 * `moduleGraph` {ModuleGraph}
 * Returns: {never}
 
 Returns the referenced module and export
-
-##### Deprecated
 
 #### `getReferencedExports(moduleGraph, runtime)`
 
@@ -3350,13 +3341,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `needRebuild(fileTimestamps, contextTimestamps)`
 
+> Stability: 0 - Deprecated
 * `fileTimestamps` {Map}
 * `contextTimestamps` {Map}
 * Returns: {boolean}
 
 Use needBuild instead
-
-##### Deprecated
 
 #### `originalSource()`
 
@@ -3397,14 +3387,13 @@ restore unsafe cache data
 
 #### `source(dependencyTemplates, runtimeTemplate[, type])`
 
+> Stability: 0 - Deprecated
 * `dependencyTemplates` {DependencyTemplates}
 * `runtimeTemplate` {RuntimeTemplate}
 * `type` {string}
 * Returns: {Source}
 
 Use codeGeneration() instead
-
-##### Deprecated
 
 #### `updateCacheModule(module)`
 
@@ -3423,12 +3412,11 @@ and properties.
 
 #### Static method: `getSourceBasicTypes(module)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * Returns: {ReadonlySet}
 
 In webpack 6, call getSourceBasicTypes() directly on the module instance instead of using this static method.
-
-##### Deprecated
 
 ***
 
@@ -3678,10 +3666,9 @@ Apply the plugin
 
 #### `getChunkMaps(realHash)`
 
+> Stability: 0 - Deprecated
 * `realHash` {boolean}
 * Returns: {ChunkMaps}
-
-##### Deprecated
 
 #### `getChunkModuleMaps(filterFn)`
 
@@ -4500,13 +4487,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `needRebuild(fileTimestamps, contextTimestamps)`
 
+> Stability: 0 - Deprecated
 * `fileTimestamps` {Map}
 * `contextTimestamps` {Map}
 * Returns: {boolean}
 
 Use needBuild instead
-
-##### Deprecated
 
 #### `originalSource()`
 
@@ -4539,14 +4525,13 @@ Use needBuild instead
 
 #### `source(dependencyTemplates, runtimeTemplate[, type])`
 
+> Stability: 0 - Deprecated
 * `dependencyTemplates` {DependencyTemplates}
 * `runtimeTemplate` {RuntimeTemplate}
 * `type` {string}
 * Returns: {Source}
 
 Use codeGeneration() instead
-
-##### Deprecated
 
 #### `updateCacheModule(module)`
 
@@ -4565,12 +4550,11 @@ and properties.
 
 #### Static method: `getSourceBasicTypes(module)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * Returns: {ReadonlySet}
 
 In webpack 6, call getSourceBasicTypes() directly on the module instance instead of using this static method.
-
-##### Deprecated
 
 ***
 
@@ -4939,27 +4923,24 @@ In webpack 6, call getSourceBasicTypes() directly on the module instance instead
 
 #### Static method: `clearModuleGraphForModule(module)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * Returns: {void}
 
-##### Deprecated
-
 #### Static method: `getModuleGraphForModule(module, deprecateMessage, deprecationCode)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * `deprecateMessage` {string}
 * `deprecationCode` {string}
 * Returns: {ModuleGraph}
 
-##### Deprecated
-
 #### Static method: `setModuleGraphForModule(module, moduleGraph)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * `moduleGraph` {ModuleGraph}
 * Returns: {void}
-
-##### Deprecated
 
 ***
 
@@ -5108,14 +5089,13 @@ In webpack 6, call getSourceBasicTypes() directly on the module instance instead
 
 #### `runWithDependencies(compilers, fn, callback)`
 
+> Stability: 0 - Deprecated
 * `compilers` {Compiler[]}
 * `fn` {object}
 * `callback` {CallbackWebpackFunction_2}
 * Returns: {void}
 
 This method should have been private
-
-##### Deprecated
 
 #### `setDependencies(compiler, dependencies)`
 
@@ -5696,13 +5676,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `needRebuild(fileTimestamps, contextTimestamps)`
 
+> Stability: 0 - Deprecated
 * `fileTimestamps` {Map}
 * `contextTimestamps` {Map}
 * Returns: {boolean}
 
 Use needBuild instead
-
-##### Deprecated
 
 #### `originalSource()`
 
@@ -5749,14 +5728,13 @@ restore unsafe cache data
 
 #### `source(dependencyTemplates, runtimeTemplate[, type])`
 
+> Stability: 0 - Deprecated
 * `dependencyTemplates` {DependencyTemplates}
 * `runtimeTemplate` {RuntimeTemplate}
 * `type` {string}
 * Returns: {Source}
 
 Use codeGeneration() instead
-
-##### Deprecated
 
 #### `updateCacheModule(module)`
 
@@ -5785,12 +5763,11 @@ and properties.
 
 #### Static method: `getSourceBasicTypes(module)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * Returns: {ReadonlySet}
 
 In webpack 6, call getSourceBasicTypes() directly on the module instance instead of using this static method.
-
-##### Deprecated
 
 ***
 
@@ -6517,13 +6494,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `needRebuild(fileTimestamps, contextTimestamps)`
 
+> Stability: 0 - Deprecated
 * `fileTimestamps` {Map}
 * `contextTimestamps` {Map}
 * Returns: {boolean}
 
 Use needBuild instead
-
-##### Deprecated
 
 #### `originalSource()`
 
@@ -6560,14 +6536,13 @@ Use needBuild instead
 
 #### `source(dependencyTemplates, runtimeTemplate[, type])`
 
+> Stability: 0 - Deprecated
 * `dependencyTemplates` {DependencyTemplates}
 * `runtimeTemplate` {RuntimeTemplate}
 * `type` {string}
 * Returns: {Source}
 
 Use codeGeneration() instead
-
-##### Deprecated
 
 #### `updateCacheModule(module)`
 
@@ -6586,12 +6561,11 @@ and properties.
 
 #### Static method: `getSourceBasicTypes(module)`
 
+> Stability: 0 - Deprecated
 * `module` {Module}
 * Returns: {ReadonlySet}
 
 In webpack 6, call getSourceBasicTypes() directly on the module instance instead of using this static method.
-
-##### Deprecated
 
 ***
 
@@ -6959,10 +6933,6 @@ a();
 * `stackTraces` {CallSite[]}
 * Returns: {any}
 
-##### See
-
-https://v8.dev/docs/stack-trace-api#customizing-stack-traces
-
 ***
 
 ## Class: `WebpackOptionsApply`
@@ -7132,10 +7102,6 @@ a();
 * `err` {Error}
 * `stackTraces` {CallSite[]}
 * Returns: {any}
-
-##### See
-
-https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 ***
 
