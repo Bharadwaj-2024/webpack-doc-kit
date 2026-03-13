@@ -131,6 +131,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {ModuleConcatenationPlugin}
 
 ### Methods

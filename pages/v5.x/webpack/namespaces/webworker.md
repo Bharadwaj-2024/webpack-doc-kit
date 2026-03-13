@@ -6,6 +6,7 @@
 
 #### Constructor
 
+0
 * Returns: {WebWorkerTemplatePlugin}
 
 ### Methods

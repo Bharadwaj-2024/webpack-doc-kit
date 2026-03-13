@@ -40,6 +40,7 @@ export default (ctx) => ({
 
     return [
       stability,
+      stability && "",
       model.typeParameters?.length &&
         ctx.partials.typeParametersList(model.typeParameters, {
           headingLevel: options.headingLevel,
@@ -60,7 +61,7 @@ export default (ctx) => ({
           showTags: false,
         }),
     ]
-      .filter((x) => (typeof x === "string" ? x : Boolean(x)))
+      .filter((x) => x !== null && x !== undefined && x !== false)
       .join("\n");
   },
 

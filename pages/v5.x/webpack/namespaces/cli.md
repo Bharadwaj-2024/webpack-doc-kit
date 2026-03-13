@@ -22,6 +22,7 @@
 
 > **isColorSupported**: {object}
 
+0
 * Returns: {boolean}
 
 ***

@@ -18,10 +18,12 @@
 
 #### `buffer()`
 
+0
 * Returns: {Buffer}
 
 #### `getCachedData()`
 
+0
 * Returns: {CachedData}
 
 #### `map([options])`
@@ -31,18 +33,22 @@
 
 #### `original()`
 
+0
 * Returns: {Source}
 
 #### `originalLazy()`
 
+0
 * Returns: {Source|object}
 
 #### `size()`
 
+0
 * Returns: {number}
 
 #### `source()`
 
+0
 * Returns: {SourceValue}
 
 #### `sourceAndMap([options])`
@@ -82,6 +88,7 @@
 
 #### `buffer()`
 
+0
 * Returns: {Buffer}
 
 #### `map([options])`
@@ -91,10 +98,12 @@
 
 #### `size()`
 
+0
 * Returns: {number}
 
 #### `source()`
 
+0
 * Returns: {SourceValue}
 
 #### `sourceAndMap([options])`
@@ -141,10 +150,12 @@
 
 #### `buffer()`
 
+0
 * Returns: {Buffer}
 
 #### `getChildren()`
 
+0
 * Returns: {Source[]}
 
 #### `map([options])`
@@ -154,10 +165,12 @@
 
 #### `size()`
 
+0
 * Returns: {number}
 
 #### `source()`
 
+0
 * Returns: {SourceValue}
 
 #### `sourceAndMap([options])`
@@ -198,10 +211,12 @@
 
 #### `buffer()`
 
+0
 * Returns: {Buffer}
 
 #### `getName()`
 
+0
 * Returns: {string}
 
 #### `map([options])`
@@ -211,10 +226,12 @@
 
 #### `size()`
 
+0
 * Returns: {number}
 
 #### `source()`
 
+0
 * Returns: {SourceValue}
 
 #### `sourceAndMap([options])`
@@ -255,10 +272,12 @@
 
 #### `buffer()`
 
+0
 * Returns: {Buffer}
 
 #### `getPrefix()`
 
+0
 * Returns: {string}
 
 #### `map([options])`
@@ -268,14 +287,17 @@
 
 #### `original()`
 
+0
 * Returns: {Source}
 
 #### `size()`
 
+0
 * Returns: {number}
 
 #### `source()`
 
+0
 * Returns: {SourceValue}
 
 #### `sourceAndMap([options])`
@@ -316,10 +338,12 @@
 
 #### `buffer()`
 
+0
 * Returns: {Buffer}
 
 #### `isBuffer()`
 
+0
 * Returns: {boolean}
 
 #### `map([options])`
@@ -329,10 +353,12 @@
 
 #### `size()`
 
+0
 * Returns: {number}
 
 #### `source()`
 
+0
 * Returns: {SourceValue}
 
 #### `sourceAndMap([options])`
@@ -377,14 +403,17 @@
 
 #### `buffer()`
 
+0
 * Returns: {Buffer}
 
 #### `getName()`
 
+0
 * Returns: {string}
 
 #### `getReplacements()`
 
+0
 * Returns: {Replacement[]}
 
 #### `insert(pos, newValue[, name])`
@@ -401,6 +430,7 @@
 
 #### `original()`
 
+0
 * Returns: {Source}
 
 #### `replace(start, end, newValue[, name])`
@@ -413,10 +443,12 @@
 
 #### `size()`
 
+0
 * Returns: {number}
 
 #### `source()`
 
+0
 * Returns: {SourceValue}
 
 #### `sourceAndMap([options])`
@@ -456,6 +488,7 @@
 
 #### `buffer()`
 
+0
 * Returns: {Buffer}
 
 #### `map([options])`
@@ -465,10 +498,12 @@
 
 #### `size()`
 
+0
 * Returns: {number}
 
 #### `source()`
 
+0
 * Returns: {SourceValue}
 
 #### `sourceAndMap([options])`
@@ -501,12 +536,14 @@
 
 #### Constructor
 
+0
 * Returns: {Source}
 
 ### Methods
 
 #### `buffer()`
 
+0
 * Returns: {Buffer}
 
 #### `map([options])`
@@ -516,10 +553,12 @@
 
 #### `size()`
 
+0
 * Returns: {number}
 
 #### `source()`
 
+0
 * Returns: {SourceValue}
 
 #### `sourceAndMap([options])`
@@ -556,10 +595,12 @@
 
 #### `buffer()`
 
+0
 * Returns: {Buffer}
 
 #### `getArgsAsBuffers()`
 
+0
 * Returns: {Buffer|string|Buffer|Buffer|Buffer|boolean}
 
 #### `map([options])`
@@ -569,10 +610,12 @@
 
 #### `size()`
 
+0
 * Returns: {number}
 
 #### `source()`
 
+0
 * Returns: {SourceValue}
 
 #### `sourceAndMap([options])`

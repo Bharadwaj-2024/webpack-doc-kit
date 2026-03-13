@@ -30,6 +30,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {NodeSourcePlugin}
 
 ### Methods

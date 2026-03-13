@@ -84,6 +84,7 @@ This is used for when a Module has a AsyncDependencyBlock tie (for code-splittin
 
 #### `clearDependenciesAndBlocks()`
 
+0
 * Returns: {void}
 
 Removes all dependencies and blocks
@@ -95,6 +96,7 @@ Removes all dependencies and blocks
 
 #### `getRootBlock()`
 
+0
 * Returns: {DependenciesBlock}
 
 #### `removeDependency(dependency)`
@@ -121,6 +123,7 @@ Removes all dependencies and blocks
 
 #### Constructor
 
+0
 * Returns: {AutomaticPrefetchPlugin}
 
 ### Methods
@@ -165,6 +168,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {CacheClass}
 
 ### Properties
@@ -179,6 +183,7 @@ Apply the plugin
 
 #### `beginIdle()`
 
+0
 * Returns: {void}
 
 #### `endIdle(callback)`
@@ -304,6 +309,7 @@ After this method has succeeded the cache can only be restored when build depend
 
 #### `canBeInitial()`
 
+0
 * Returns: {boolean}
 
 #### `canBeIntegrated(otherChunk)`
@@ -323,22 +329,27 @@ After this method has succeeded the cache can only be restored when build depend
 
 #### `disconnectFromGroups()`
 
+0
 * Returns: {void}
 
 #### `getAllAsyncChunks()`
 
+0
 * Returns: {Set}
 
 #### `getAllInitialChunks()`
 
+0
 * Returns: {Set}
 
 #### `getAllReferencedAsyncEntrypoints()`
 
+0
 * Returns: {Set}
 
 #### `getAllReferencedChunks()`
 
+0
 * Returns: {Set}
 
 #### `getChildIdsByOrders(chunkGraph[, filterFn])`
@@ -363,6 +374,7 @@ After this method has succeeded the cache can only be restored when build depend
 #### `getChunkMaps(realHash)`
 
 > Stability: 0 - Deprecated
+
 * `realHash` {boolean}
 * Returns: {ChunkMaps}
 
@@ -373,22 +385,27 @@ After this method has succeeded the cache can only be restored when build depend
 
 #### `getEntryOptions()`
 
+0
 * Returns: {EntryOptions}
 
 #### `getModules()`
 
+0
 * Returns: {Module[]}
 
 #### `getNumberOfGroups()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfModules()`
 
+0
 * Returns: {number}
 
 #### `hasAsyncChunks()`
 
+0
 * Returns: {boolean}
 
 #### `hasChildByOrder(chunkGraph, type[, includeDirectChildren][, filterFn])`
@@ -401,6 +418,7 @@ After this method has succeeded the cache can only be restored when build depend
 
 #### `hasEntryModule()`
 
+0
 * Returns: {boolean}
 
 #### `hasModuleInGraph(filterFn[, filterChunkFn])`
@@ -411,6 +429,7 @@ After this method has succeeded the cache can only be restored when build depend
 
 #### `hasRuntime()`
 
+0
 * Returns: {boolean}
 
 #### `integrate(otherChunk)`
@@ -426,6 +445,7 @@ After this method has succeeded the cache can only be restored when build depend
 
 #### `isEmpty()`
 
+0
 * Returns: {boolean}
 
 #### `isInGroup(chunkGroup)`
@@ -435,10 +455,12 @@ After this method has succeeded the cache can only be restored when build depend
 
 #### `isOnlyInitial()`
 
+0
 * Returns: {boolean}
 
 #### `modulesSize()`
 
+0
 * Returns: {number}
 
 #### `moveModule(module, otherChunk)`
@@ -449,6 +471,7 @@ After this method has succeeded the cache can only be restored when build depend
 
 #### `remove()`
 
+0
 * Returns: {void}
 
 #### `removeGroup(chunkGroup)`
@@ -957,18 +980,21 @@ After this method has succeeded the cache can only be restored when build depend
 #### Static method: `clearChunkGraphForChunk(chunk)`
 
 > Stability: 0 - Deprecated
+
 * `chunk` {Chunk}
 * Returns: {void}
 
 #### Static method: `clearChunkGraphForModule(module)`
 
 > Stability: 0 - Deprecated
+
 * `module` {Module}
 * Returns: {void}
 
 #### Static method: `getChunkGraphForChunk(chunk, deprecateMessage, deprecationCode)`
 
 > Stability: 0 - Deprecated
+
 * `chunk` {Chunk}
 * `deprecateMessage` {string}
 * `deprecationCode` {string}
@@ -977,6 +1003,7 @@ After this method has succeeded the cache can only be restored when build depend
 #### Static method: `getChunkGraphForModule(module, deprecateMessage, deprecationCode)`
 
 > Stability: 0 - Deprecated
+
 * `module` {Module}
 * `deprecateMessage` {string}
 * `deprecationCode` {string}
@@ -985,6 +1012,7 @@ After this method has succeeded the cache can only be restored when build depend
 #### Static method: `setChunkGraphForChunk(chunk, chunkGraph)`
 
 > Stability: 0 - Deprecated
+
 * `chunk` {Chunk}
 * `chunkGraph` {ChunkGraph}
 * Returns: {void}
@@ -992,6 +1020,7 @@ After this method has succeeded the cache can only be restored when build depend
 #### Static method: `setChunkGraphForModule(module, chunkGraph)`
 
 > Stability: 0 - Deprecated
+
 * `module` {Module}
 * `chunkGraph` {ChunkGraph}
 * Returns: {void}
@@ -1008,6 +1037,7 @@ After this method has succeeded the cache can only be restored when build depend
 
 #### Constructor
 
+0
 * Returns: {ChunkGroup}
 
 ### Properties
@@ -1126,6 +1156,7 @@ when a new chunk is added to a chunkGroup, addingOptions will occur.
 
 #### `checkConstraints()`
 
+0
 * Returns: {void}
 
 #### `compareTo(chunkGraph, otherGroup)`
@@ -1139,10 +1170,12 @@ Sorting values are based off of number of chunks in ChunkGroup.
 
 #### `getBlocks()`
 
+0
 * Returns: {AsyncDependenciesBlock[]}
 
 #### `getChildren()`
 
+0
 * Returns: {ChunkGroup[]}
 
 #### `getChildrenByOrders(moduleGraph, chunkGraph)`
@@ -1153,6 +1186,7 @@ Sorting values are based off of number of chunks in ChunkGroup.
 
 #### `getFiles()`
 
+0
 * Returns: {string[]}
 
 #### `getModulePostOrderIndex(module)`
@@ -1171,18 +1205,22 @@ Gets the top-down index of a module in this ChunkGroup
 
 #### `getNumberOfBlocks()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfChildren()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfParents()`
 
+0
 * Returns: {number}
 
 #### `getParents()`
 
+0
 * Returns: {ChunkGroup[]}
 
 #### `hasBlock(block)`
@@ -1205,6 +1243,7 @@ inserts a chunk before another existing chunk in group
 
 #### `isInitial()`
 
+0
 * Returns: {boolean}
 
 #### `pushChunk(chunk)`
@@ -1216,6 +1255,7 @@ add a chunk into ChunkGroup. Is pushed on or prepended
 
 #### `remove()`
 
+0
 * Returns: {void}
 
 #### `removeChild(group)`
@@ -1257,6 +1297,7 @@ Sets the top-down index of a module in this ChunkGroup
 
 #### `sortItems()`
 
+0
 * Returns: {void}
 
 #### `unshiftChunk(chunk)`
@@ -1303,6 +1344,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {CodeGenerationResults}
 
 ### Properties
@@ -1536,6 +1578,7 @@ If `module` is passed, `loc` and `request` must also be passed.
 #### `assignDepth(module)`
 
 > Stability: 0 - Deprecated
+
 * `module` {Module}
 * Returns: {void}
 
@@ -1546,6 +1589,7 @@ If `module` is passed, `loc` and `request` must also be passed.
 
 #### `assignRuntimeIds()`
 
+0
 * Returns: {void}
 
 #### `buildModule(module, callback)`
@@ -1558,10 +1602,12 @@ Schedules a build of the module object
 
 #### `checkConstraints()`
 
+0
 * Returns: {void}
 
 #### `clearAssets()`
 
+0
 * Returns: {void}
 
 #### `codeGeneration(callback)`
@@ -1587,14 +1633,17 @@ from parent (or top level compiler) and creates a child Compilation
 
 #### `createHash()`
 
+0
 * Returns: {CodeGenerationJob[]}
 
 #### `createModuleAssets()`
 
+0
 * Returns: {void}
 
 #### `createModuleHashes()`
 
+0
 * Returns: {void}
 
 #### `createStatsFactory(options)`
@@ -1677,6 +1726,7 @@ Attempts to search for a module by its identifier
 
 #### `getAssets()`
 
+0
 * Returns: {Readonly[]}
 
 #### `getCache(name)`
@@ -1692,6 +1742,7 @@ Attempts to search for a module by its identifier
 
 #### `getErrors()`
 
+0
 * Returns: {Error[]}
 
 #### `getLogger(name)`
@@ -1725,10 +1776,12 @@ Fetches a module from a compilation by its identifier
 
 #### `getStats()`
 
+0
 * Returns: {Stats}
 
 #### `getWarnings()`
 
+0
 * Returns: {Error[]}
 
 #### `handleModuleCreation(__namedParameters, callback)`
@@ -1796,14 +1849,17 @@ Fetches a module from a compilation by its identifier
 
 #### `sortItemsWithChunkIds()`
 
+0
 * Returns: {void}
 
 #### `summarizeDependencies()`
 
+0
 * Returns: {void}
 
 #### `unseal()`
 
+0
 * Returns: {void}
 
 #### `updateAsset(file, newSourceOrFunction[, assetInfoUpdateOrFunction])`
@@ -1890,10 +1946,12 @@ Fetches a module from a compilation by its identifier
 
 #### `createContextModuleFactory()`
 
+0
 * Returns: {ContextModuleFactory}
 
 #### `createNormalModuleFactory()`
 
+0
 * Returns: {NormalModuleFactory}
 
 #### `emitAssets(compilation, callback)`
@@ -1919,6 +1977,7 @@ Fetches a module from a compilation by its identifier
 
 #### `isChild()`
 
+0
 * Returns: {boolean}
 
 #### `newCompilation(params)`
@@ -1928,10 +1987,12 @@ Fetches a module from a compilation by its identifier
 
 #### `newCompilationParams()`
 
+0
 * Returns: {object}
 
 #### `purgeInputFileSystem()`
 
+0
 * Returns: {void}
 
 #### `readRecords(callback)`
@@ -2168,6 +2229,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {Dependency}
 
 ### Properties
@@ -2216,6 +2278,7 @@ Apply the plugin
 
 #### `couldAffectReferencingModule()`
 
+0
 * Returns: {boolean|TRANSITIVE}
 
 #### `createIgnoredModule(context)`
@@ -2235,6 +2298,7 @@ Apply the plugin
 
 #### `getContext()`
 
+0
 * Returns: {string}
 
 #### `getErrors(moduleGraph)`
@@ -2258,6 +2322,7 @@ Returns the exported names
 
 #### `getNumberOfIdOccurrences()`
 
+0
 * Returns: {number}
 
 implement this method to allow the occurrence order plugin to count correctly
@@ -2265,6 +2330,7 @@ implement this method to allow the occurrence order plugin to count correctly
 #### `getReference(moduleGraph)`
 
 > Stability: 0 - Deprecated
+
 * `moduleGraph` {ModuleGraph}
 * Returns: {never}
 
@@ -2280,6 +2346,7 @@ Returns list of exports referenced by this dependency
 
 #### `getResourceIdentifier()`
 
+0
 * Returns: {string}
 
 #### `getWarnings(moduleGraph)`
@@ -2419,6 +2486,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {EntryOptionPlugin}
 
 ### Methods
@@ -2490,6 +2558,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {Entrypoint}
 
 ### Properties
@@ -2637,6 +2706,7 @@ when a new chunk is added to a chunkGroup, addingOptions will occur.
 
 #### `checkConstraints()`
 
+0
 * Returns: {void}
 
 #### `compareTo(chunkGraph, otherGroup)`
@@ -2655,10 +2725,12 @@ Sorting values are based off of number of chunks in ChunkGroup.
 
 #### `getBlocks()`
 
+0
 * Returns: {AsyncDependenciesBlock[]}
 
 #### `getChildren()`
 
+0
 * Returns: {ChunkGroup[]}
 
 #### `getChildrenByOrders(moduleGraph, chunkGraph)`
@@ -2669,6 +2741,7 @@ Sorting values are based off of number of chunks in ChunkGroup.
 
 #### `getEntrypointChunk()`
 
+0
 * Returns: {Chunk}
 
 Returns the chunk which contains the entrypoint modules
@@ -2676,6 +2749,7 @@ Returns the chunk which contains the entrypoint modules
 
 #### `getFiles()`
 
+0
 * Returns: {string[]}
 
 #### `getModulePostOrderIndex(module)`
@@ -2694,22 +2768,27 @@ Gets the top-down index of a module in this ChunkGroup
 
 #### `getNumberOfBlocks()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfChildren()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfParents()`
 
+0
 * Returns: {number}
 
 #### `getParents()`
 
+0
 * Returns: {ChunkGroup[]}
 
 #### `getRuntimeChunk()`
 
+0
 * Returns: {Chunk}
 
 Fetches the chunk reference containing the webpack bootstrap code
@@ -2734,6 +2813,7 @@ inserts a chunk before another existing chunk in group
 
 #### `isInitial()`
 
+0
 * Returns: {boolean}
 
 #### `pushChunk(chunk)`
@@ -2745,6 +2825,7 @@ add a chunk into ChunkGroup. Is pushed on or prepended
 
 #### `remove()`
 
+0
 * Returns: {void}
 
 #### `removeChild(group)`
@@ -2800,6 +2881,7 @@ Sets the runtimeChunk for an entrypoint.
 
 #### `sortItems()`
 
+0
 * Returns: {void}
 
 #### `unshiftChunk(chunk)`
@@ -3175,18 +3257,21 @@ This is used for when a Module has a AsyncDependencyBlock tie (for code-splittin
 
 #### `cleanupForCache()`
 
+0
 * Returns: {void}
 
 Assuming this module is in the cache. Remove internal references to allow freeing some memory.
 
 #### `clearDependenciesAndBlocks()`
 
+0
 * Returns: {void}
 
 Removes all dependencies and blocks
 
 #### `clearWarningsAndErrors()`
 
+0
 * Returns: {void}
 
 removes all warnings and errors
@@ -3203,6 +3288,7 @@ removes all warnings and errors
 
 #### `getChunks()`
 
+0
 * Returns: {Chunk[]}
 
 #### `getConcatenationBailoutReason(context)`
@@ -3212,6 +3298,7 @@ removes all warnings and errors
 
 #### `getErrors()`
 
+0
 * Returns: {Iterable}
 
 #### `getExportsType(moduleGraph[, strict])`
@@ -3222,18 +3309,22 @@ removes all warnings and errors
 
 #### `getNumberOfChunks()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfErrors()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfWarnings()`
 
+0
 * Returns: {number}
 
 #### `getRootBlock()`
 
+0
 * Returns: {DependenciesBlock}
 
 #### `getSideEffectsConnectionState(moduleGraph)`
@@ -3243,6 +3334,7 @@ removes all warnings and errors
 
 #### `getSourceBasicTypes()`
 
+0
 * Returns: {ReadonlySet}
 
 Basic source types are high-level categories like javascript, css, webassembly, etc.
@@ -3253,10 +3345,12 @@ from getSourceTypes(), but their generated output is still JavaScript, i.e. thei
 
 #### `getSourceTypes()`
 
+0
 * Returns: {ReadonlySet}
 
 #### `getUnsafeCacheData()`
 
+0
 * Returns: {UnsafeCacheData}
 
 Module should be unsafe cached. Get data that's needed for that.
@@ -3264,10 +3358,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `getWarnings()`
 
+0
 * Returns: {Iterable}
 
 #### `hasChunkCondition()`
 
+0
 * Returns: {boolean}
 
 #### `hasReasonForChunk(chunk, moduleGraph, chunkGraph)`
@@ -3285,10 +3381,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `identifier()`
 
+0
 * Returns: {string}
 
 #### `invalidateBuild()`
 
+0
 * Returns: {void}
 
 #### `isAccessibleInChunk(chunkGraph, chunk[, ignoreChunk])`
@@ -3307,6 +3405,7 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `isEntryModule()`
 
+0
 * Returns: {boolean}
 
 #### `isInChunk(chunk)`
@@ -3331,6 +3430,7 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `nameForCondition()`
 
+0
 * Returns: {string}
 
 #### `needBuild(context, callback)`
@@ -3342,6 +3442,7 @@ This data will be passed to restoreFromUnsafeCache later.
 #### `needRebuild(fileTimestamps, contextTimestamps)`
 
 > Stability: 0 - Deprecated
+
 * `fileTimestamps` {Map}
 * `contextTimestamps` {Map}
 * Returns: {boolean}
@@ -3350,6 +3451,7 @@ Use needBuild instead
 
 #### `originalSource()`
 
+0
 * Returns: {Source}
 
 #### `readableIdentifier(requestShortener)`
@@ -3388,6 +3490,7 @@ restore unsafe cache data
 #### `source(dependencyTemplates, runtimeTemplate[, type])`
 
 > Stability: 0 - Deprecated
+
 * `dependencyTemplates` {DependencyTemplates}
 * `runtimeTemplate` {RuntimeTemplate}
 * `type` {string}
@@ -3413,6 +3516,7 @@ and properties.
 #### Static method: `getSourceBasicTypes(module)`
 
 > Stability: 0 - Deprecated
+
 * `module` {Module}
 * Returns: {ReadonlySet}
 
@@ -3452,6 +3556,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {Generator}
 
 ### Methods
@@ -3498,6 +3603,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {HotModuleReplacementPlugin}
 
 ### Methods
@@ -3526,6 +3632,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {HotUpdateChunk}
 
 ### Properties
@@ -3608,6 +3715,7 @@ Apply the plugin
 
 #### `canBeInitial()`
 
+0
 * Returns: {boolean}
 
 #### `canBeIntegrated(otherChunk)`
@@ -3627,22 +3735,27 @@ Apply the plugin
 
 #### `disconnectFromGroups()`
 
+0
 * Returns: {void}
 
 #### `getAllAsyncChunks()`
 
+0
 * Returns: {Set}
 
 #### `getAllInitialChunks()`
 
+0
 * Returns: {Set}
 
 #### `getAllReferencedAsyncEntrypoints()`
 
+0
 * Returns: {Set}
 
 #### `getAllReferencedChunks()`
 
+0
 * Returns: {Set}
 
 #### `getChildIdsByOrders(chunkGraph[, filterFn])`
@@ -3667,6 +3780,7 @@ Apply the plugin
 #### `getChunkMaps(realHash)`
 
 > Stability: 0 - Deprecated
+
 * `realHash` {boolean}
 * Returns: {ChunkMaps}
 
@@ -3677,22 +3791,27 @@ Apply the plugin
 
 #### `getEntryOptions()`
 
+0
 * Returns: {EntryOptions}
 
 #### `getModules()`
 
+0
 * Returns: {Module[]}
 
 #### `getNumberOfGroups()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfModules()`
 
+0
 * Returns: {number}
 
 #### `hasAsyncChunks()`
 
+0
 * Returns: {boolean}
 
 #### `hasChildByOrder(chunkGraph, type[, includeDirectChildren][, filterFn])`
@@ -3705,6 +3824,7 @@ Apply the plugin
 
 #### `hasEntryModule()`
 
+0
 * Returns: {boolean}
 
 #### `hasModuleInGraph(filterFn[, filterChunkFn])`
@@ -3715,6 +3835,7 @@ Apply the plugin
 
 #### `hasRuntime()`
 
+0
 * Returns: {boolean}
 
 #### `integrate(otherChunk)`
@@ -3730,6 +3851,7 @@ Apply the plugin
 
 #### `isEmpty()`
 
+0
 * Returns: {boolean}
 
 #### `isInGroup(chunkGroup)`
@@ -3739,10 +3861,12 @@ Apply the plugin
 
 #### `isOnlyInitial()`
 
+0
 * Returns: {boolean}
 
 #### `modulesSize()`
 
+0
 * Returns: {number}
 
 #### `moveModule(module, otherChunk)`
@@ -3753,6 +3877,7 @@ Apply the plugin
 
 #### `remove()`
 
+0
 * Returns: {void}
 
 #### `removeGroup(chunkGroup)`
@@ -4321,18 +4446,21 @@ This is used for when a Module has a AsyncDependencyBlock tie (for code-splittin
 
 #### `cleanupForCache()`
 
+0
 * Returns: {void}
 
 Assuming this module is in the cache. Remove internal references to allow freeing some memory.
 
 #### `clearDependenciesAndBlocks()`
 
+0
 * Returns: {void}
 
 Removes all dependencies and blocks
 
 #### `clearWarningsAndErrors()`
 
+0
 * Returns: {void}
 
 removes all warnings and errors
@@ -4349,6 +4477,7 @@ removes all warnings and errors
 
 #### `getChunks()`
 
+0
 * Returns: {Chunk[]}
 
 #### `getConcatenationBailoutReason(context)`
@@ -4358,6 +4487,7 @@ removes all warnings and errors
 
 #### `getErrors()`
 
+0
 * Returns: {Iterable}
 
 #### `getExportsType(moduleGraph[, strict])`
@@ -4368,18 +4498,22 @@ removes all warnings and errors
 
 #### `getNumberOfChunks()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfErrors()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfWarnings()`
 
+0
 * Returns: {number}
 
 #### `getRootBlock()`
 
+0
 * Returns: {DependenciesBlock}
 
 #### `getSideEffectsConnectionState(moduleGraph)`
@@ -4389,6 +4523,7 @@ removes all warnings and errors
 
 #### `getSourceBasicTypes()`
 
+0
 * Returns: {ReadonlySet}
 
 Basic source types are high-level categories like javascript, css, webassembly, etc.
@@ -4399,10 +4534,12 @@ from getSourceTypes(), but their generated output is still JavaScript, i.e. thei
 
 #### `getSourceTypes()`
 
+0
 * Returns: {ReadonlySet}
 
 #### `getUnsafeCacheData()`
 
+0
 * Returns: {UnsafeCacheData}
 
 Module should be unsafe cached. Get data that's needed for that.
@@ -4410,10 +4547,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `getWarnings()`
 
+0
 * Returns: {Iterable}
 
 #### `hasChunkCondition()`
 
+0
 * Returns: {boolean}
 
 #### `hasReasonForChunk(chunk, moduleGraph, chunkGraph)`
@@ -4431,10 +4570,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `identifier()`
 
+0
 * Returns: {string}
 
 #### `invalidateBuild()`
 
+0
 * Returns: {void}
 
 #### `isAccessibleInChunk(chunkGraph, chunk[, ignoreChunk])`
@@ -4453,6 +4594,7 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `isEntryModule()`
 
+0
 * Returns: {boolean}
 
 #### `isInChunk(chunk)`
@@ -4477,6 +4619,7 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `nameForCondition()`
 
+0
 * Returns: {string}
 
 #### `needBuild(context, callback)`
@@ -4488,6 +4631,7 @@ This data will be passed to restoreFromUnsafeCache later.
 #### `needRebuild(fileTimestamps, contextTimestamps)`
 
 > Stability: 0 - Deprecated
+
 * `fileTimestamps` {Map}
 * `contextTimestamps` {Map}
 * Returns: {boolean}
@@ -4496,6 +4640,7 @@ Use needBuild instead
 
 #### `originalSource()`
 
+0
 * Returns: {Source}
 
 #### `readableIdentifier(requestShortener)`
@@ -4526,6 +4671,7 @@ Use needBuild instead
 #### `source(dependencyTemplates, runtimeTemplate[, type])`
 
 > Stability: 0 - Deprecated
+
 * `dependencyTemplates` {DependencyTemplates}
 * `runtimeTemplate` {RuntimeTemplate}
 * `type` {string}
@@ -4551,6 +4697,7 @@ and properties.
 #### Static method: `getSourceBasicTypes(module)`
 
 > Stability: 0 - Deprecated
+
 * `module` {Module}
 * Returns: {ReadonlySet}
 
@@ -4564,6 +4711,7 @@ In webpack 6, call getSourceBasicTypes() directly on the module instance instead
 
 #### Constructor
 
+0
 * Returns: {ModuleFactory}
 
 ### Methods
@@ -4582,6 +4730,7 @@ In webpack 6, call getSourceBasicTypes() directly on the module instance instead
 
 #### Constructor
 
+0
 * Returns: {ModuleGraph}
 
 ### Properties
@@ -4647,6 +4796,7 @@ In webpack 6, call getSourceBasicTypes() directly on the module instance instead
 
 #### `finishUpdateParent()`
 
+0
 * Returns: {void}
 
 #### `freeze([cacheStage])`
@@ -4807,6 +4957,7 @@ In webpack 6, call getSourceBasicTypes() directly on the module instance instead
 
 #### `removeAllModuleAttributes()`
 
+0
 * Returns: {void}
 
 #### `removeConnection(dependency)`
@@ -4906,6 +5057,7 @@ In webpack 6, call getSourceBasicTypes() directly on the module instance instead
 
 #### `unfreeze()`
 
+0
 * Returns: {void}
 
 #### `updateModule(dependency, module)`
@@ -4924,12 +5076,14 @@ In webpack 6, call getSourceBasicTypes() directly on the module instance instead
 #### Static method: `clearModuleGraphForModule(module)`
 
 > Stability: 0 - Deprecated
+
 * `module` {Module}
 * Returns: {void}
 
 #### Static method: `getModuleGraphForModule(module, deprecateMessage, deprecationCode)`
 
 > Stability: 0 - Deprecated
+
 * `module` {Module}
 * `deprecateMessage` {string}
 * `deprecationCode` {string}
@@ -4938,6 +5092,7 @@ In webpack 6, call getSourceBasicTypes() directly on the module instance instead
 #### Static method: `setModuleGraphForModule(module, moduleGraph)`
 
 > Stability: 0 - Deprecated
+
 * `module` {Module}
 * `moduleGraph` {ModuleGraph}
 * Returns: {void}
@@ -4999,6 +5154,7 @@ In webpack 6, call getSourceBasicTypes() directly on the module instance instead
 
 #### `clone()`
 
+0
 * Returns: {ModuleGraphConnection}
 
 #### `getActiveState(runtime)`
@@ -5080,6 +5236,7 @@ In webpack 6, call getSourceBasicTypes() directly on the module instance instead
 
 #### `purgeInputFileSystem()`
 
+0
 * Returns: {void}
 
 #### `run(callback)`
@@ -5090,6 +5247,7 @@ In webpack 6, call getSourceBasicTypes() directly on the module instance instead
 #### `runWithDependencies(compilers, fn, callback)`
 
 > Stability: 0 - Deprecated
+
 * `compilers` {Compiler[]}
 * `fn` {object}
 * `callback` {CallbackWebpackFunction_2}
@@ -5122,6 +5280,7 @@ This method should have been private
 
 #### Constructor
 
+0
 * Returns: {MultiStats}
 
 ### Properties
@@ -5144,10 +5303,12 @@ This method should have been private
 
 #### `hasErrors()`
 
+0
 * Returns: {boolean}
 
 #### `hasWarnings()`
 
+0
 * Returns: {boolean}
 
 #### `toJson([options])`
@@ -5168,6 +5329,7 @@ This method should have been private
 
 #### Constructor
 
+0
 * Returns: {NoEmitOnErrorsPlugin}
 
 ### Methods
@@ -5478,18 +5640,21 @@ This is used for when a Module has a AsyncDependencyBlock tie (for code-splittin
 
 #### `cleanupForCache()`
 
+0
 * Returns: {void}
 
 Assuming this module is in the cache. Remove internal references to allow freeing some memory.
 
 #### `clearDependenciesAndBlocks()`
 
+0
 * Returns: {void}
 
 Removes all dependencies and blocks
 
 #### `clearWarningsAndErrors()`
 
+0
 * Returns: {void}
 
 removes all warnings and errors
@@ -5523,6 +5688,7 @@ removes all warnings and errors
 
 #### `getChunks()`
 
+0
 * Returns: {Chunk[]}
 
 #### `getConcatenationBailoutReason(context)`
@@ -5538,6 +5704,7 @@ removes all warnings and errors
 
 #### `getErrors()`
 
+0
 * Returns: {Iterable}
 
 #### `getExportsType(moduleGraph[, strict])`
@@ -5548,22 +5715,27 @@ removes all warnings and errors
 
 #### `getNumberOfChunks()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfErrors()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfWarnings()`
 
+0
 * Returns: {number}
 
 #### `getResource()`
 
+0
 * Returns: {string}
 
 #### `getRootBlock()`
 
+0
 * Returns: {DependenciesBlock}
 
 #### `getSideEffectsConnectionState(moduleGraph)`
@@ -5573,6 +5745,7 @@ removes all warnings and errors
 
 #### `getSourceBasicTypes()`
 
+0
 * Returns: {ReadonlySet}
 
 Basic source types are high-level categories like javascript, css, webassembly, etc.
@@ -5583,10 +5756,12 @@ from getSourceTypes(), but their generated output is still JavaScript, i.e. thei
 
 #### `getSourceTypes()`
 
+0
 * Returns: {ReadonlySet}
 
 #### `getUnsafeCacheData()`
 
+0
 * Returns: {UnsafeCacheData}
 
 Module should be unsafe cached. Get data that's needed for that.
@@ -5594,10 +5769,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `getWarnings()`
 
+0
 * Returns: {Iterable}
 
 #### `hasChunkCondition()`
 
+0
 * Returns: {boolean}
 
 #### `hasReasonForChunk(chunk, moduleGraph, chunkGraph)`
@@ -5615,10 +5792,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `identifier()`
 
+0
 * Returns: {string}
 
 #### `invalidateBuild()`
 
+0
 * Returns: {void}
 
 #### `isAccessibleInChunk(chunkGraph, chunk[, ignoreChunk])`
@@ -5637,6 +5816,7 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `isEntryModule()`
 
+0
 * Returns: {boolean}
 
 #### `isInChunk(chunk)`
@@ -5666,6 +5846,7 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `nameForCondition()`
 
+0
 * Returns: {string}
 
 #### `needBuild(context, callback)`
@@ -5677,6 +5858,7 @@ This data will be passed to restoreFromUnsafeCache later.
 #### `needRebuild(fileTimestamps, contextTimestamps)`
 
 > Stability: 0 - Deprecated
+
 * `fileTimestamps` {Map}
 * `contextTimestamps` {Map}
 * Returns: {boolean}
@@ -5685,6 +5867,7 @@ Use needBuild instead
 
 #### `originalSource()`
 
+0
 * Returns: {Source}
 
 #### `readableIdentifier(requestShortener)`
@@ -5729,6 +5912,7 @@ restore unsafe cache data
 #### `source(dependencyTemplates, runtimeTemplate[, type])`
 
 > Stability: 0 - Deprecated
+
 * `dependencyTemplates` {DependencyTemplates}
 * `runtimeTemplate` {RuntimeTemplate}
 * `type` {string}
@@ -5764,6 +5948,7 @@ and properties.
 #### Static method: `getSourceBasicTypes(module)`
 
 > Stability: 0 - Deprecated
+
 * `module` {Module}
 * Returns: {ReadonlySet}
 
@@ -5809,6 +5994,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {ParserClass}
 
 ### Methods
@@ -5939,6 +6125,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {Resolver}
 
 ### Properties
@@ -6320,18 +6507,21 @@ This is used for when a Module has a AsyncDependencyBlock tie (for code-splittin
 
 #### `cleanupForCache()`
 
+0
 * Returns: {void}
 
 Assuming this module is in the cache. Remove internal references to allow freeing some memory.
 
 #### `clearDependenciesAndBlocks()`
 
+0
 * Returns: {void}
 
 Removes all dependencies and blocks
 
 #### `clearWarningsAndErrors()`
 
+0
 * Returns: {void}
 
 removes all warnings and errors
@@ -6348,10 +6538,12 @@ removes all warnings and errors
 
 #### `generate()`
 
+0
 * Returns: {string}
 
 #### `getChunks()`
 
+0
 * Returns: {Chunk[]}
 
 #### `getConcatenationBailoutReason(context)`
@@ -6361,6 +6553,7 @@ removes all warnings and errors
 
 #### `getErrors()`
 
+0
 * Returns: {Iterable}
 
 #### `getExportsType(moduleGraph[, strict])`
@@ -6371,22 +6564,27 @@ removes all warnings and errors
 
 #### `getGeneratedCode()`
 
+0
 * Returns: {string}
 
 #### `getNumberOfChunks()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfErrors()`
 
+0
 * Returns: {number}
 
 #### `getNumberOfWarnings()`
 
+0
 * Returns: {number}
 
 #### `getRootBlock()`
 
+0
 * Returns: {DependenciesBlock}
 
 #### `getSideEffectsConnectionState(moduleGraph)`
@@ -6396,6 +6594,7 @@ removes all warnings and errors
 
 #### `getSourceBasicTypes()`
 
+0
 * Returns: {ReadonlySet}
 
 Basic source types are high-level categories like javascript, css, webassembly, etc.
@@ -6406,10 +6605,12 @@ from getSourceTypes(), but their generated output is still JavaScript, i.e. thei
 
 #### `getSourceTypes()`
 
+0
 * Returns: {ReadonlySet}
 
 #### `getUnsafeCacheData()`
 
+0
 * Returns: {UnsafeCacheData}
 
 Module should be unsafe cached. Get data that's needed for that.
@@ -6417,10 +6618,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `getWarnings()`
 
+0
 * Returns: {Iterable}
 
 #### `hasChunkCondition()`
 
+0
 * Returns: {boolean}
 
 #### `hasReasonForChunk(chunk, moduleGraph, chunkGraph)`
@@ -6438,10 +6641,12 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `identifier()`
 
+0
 * Returns: {string}
 
 #### `invalidateBuild()`
 
+0
 * Returns: {void}
 
 #### `isAccessibleInChunk(chunkGraph, chunk[, ignoreChunk])`
@@ -6460,6 +6665,7 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `isEntryModule()`
 
+0
 * Returns: {boolean}
 
 #### `isInChunk(chunk)`
@@ -6484,6 +6690,7 @@ This data will be passed to restoreFromUnsafeCache later.
 
 #### `nameForCondition()`
 
+0
 * Returns: {string}
 
 #### `needBuild(context, callback)`
@@ -6495,6 +6702,7 @@ This data will be passed to restoreFromUnsafeCache later.
 #### `needRebuild(fileTimestamps, contextTimestamps)`
 
 > Stability: 0 - Deprecated
+
 * `fileTimestamps` {Map}
 * `contextTimestamps` {Map}
 * Returns: {boolean}
@@ -6503,6 +6711,7 @@ Use needBuild instead
 
 #### `originalSource()`
 
+0
 * Returns: {Source}
 
 #### `readableIdentifier(requestShortener)`
@@ -6527,6 +6736,7 @@ Use needBuild instead
 
 #### `shouldIsolate()`
 
+0
 * Returns: {boolean}
 
 #### `size([type])`
@@ -6537,6 +6747,7 @@ Use needBuild instead
 #### `source(dependencyTemplates, runtimeTemplate[, type])`
 
 > Stability: 0 - Deprecated
+
 * `dependencyTemplates` {DependencyTemplates}
 * `runtimeTemplate` {RuntimeTemplate}
 * `type` {string}
@@ -6562,6 +6773,7 @@ and properties.
 #### Static method: `getSourceBasicTypes(module)`
 
 > Stability: 0 - Deprecated
+
 * `module` {Module}
 * Returns: {ReadonlySet}
 
@@ -6647,10 +6859,12 @@ Apply the plugin
 
 #### `hasErrors()`
 
+0
 * Returns: {boolean}
 
 #### `hasWarnings()`
 
+0
 * Returns: {boolean}
 
 #### `toJson([options])`
@@ -6671,6 +6885,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {Template}
 
 ### Properties
@@ -6788,6 +7003,7 @@ Apply the plugin
 
 #### Constructor
 
+0
 * Returns: {Watching}
 
 ### Properties
@@ -6820,10 +7036,12 @@ Apply the plugin
 
 #### `resume()`
 
+0
 * Returns: {void}
 
 #### `suspend()`
 
+0
 * Returns: {void}
 
 #### `watch(files, dirs, missing)`
@@ -6945,6 +7163,7 @@ a();
 
 #### Constructor
 
+0
 * Returns: {WebpackOptionsApply}
 
 ### Methods
@@ -6964,6 +7183,7 @@ a();
 
 #### Constructor
 
+0
 * Returns: {WebpackOptionsDefaulter}
 
 ### Methods
