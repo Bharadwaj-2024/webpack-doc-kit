@@ -7,7 +7,6 @@ const KIND_PREFIX = {
   [ReflectionKind.Enum]: "Enum",
   [ReflectionKind.TypeAlias]: "Type",
   [ReflectionKind.Namespace]: "Namespace",
-  [ReflectionKind.Constructor]: "Constructor",
   [ReflectionKind.Accessor]: "Accessor",
 };
 
@@ -87,6 +86,30 @@ export default (ctx) => ({
       .join("");
 
     return `${prefix}\`${model.name}(${paramsString})\``;
+  },
+
+  constructor(model, options) {
+    const md = [];
+    model.signatures?.forEach((signature) => {
+      const params = signature.parameters ?? [];
+      const paramsString = params
+        .map((param, index) => {
+          if (param.flags?.isOptional) {
+            return index === 0 ? `[${param.name}]` : `[, ${param.name}]`;
+          }
+          return index === 0 ? param.name : `, ${param.name}`;
+        })
+        .join("");
+
+      const heading = "#".repeat(options.headingLevel);
+      md.push(`${heading} \`new ${model.parent.name}(${paramsString})\``);
+      md.push(
+        ctx.partials.signature(signature, {
+          headingLevel: options.headingLevel + 1,
+        }),
+      );
+    });
+    return md.join("\n\n");
   },
 
   parametersList: ctx.helpers.typedList,
